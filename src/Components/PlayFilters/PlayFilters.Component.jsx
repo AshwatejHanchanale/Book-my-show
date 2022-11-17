@@ -1,13 +1,13 @@
 import React, { useEffect, useState, useContext } from "react";
-import MovieLayoutHoc from "../Layout/Movie.layout";
+import MovieLayoutHoc from "../../Layout/Movie.layout";
 import { useParams } from "react-router-dom";
 import axios from "axios";
-import { MovieContext } from "../context/Movie.context";
+import { MovieContext } from "../../context/Movie.context";
 import Slider from "react-slick";
 import { FaCcVisa, FaCcApplePay } from "react-icons/fa";
-import PosterSlider from "../Components/PosterSlider/PosterSlider.Component";
-import MovieHero from "../Components/MovieHero/MovieHero.Component";
-import Cast from "../Components/Cast/Cast.Component";
+import PosterSlider from "../../Components/PosterSlider/PosterSlider.Component";
+import MovieHero from "../../Components/MovieHero/MovieHero.Component";
+import Cast from "../../Components/Cast/Cast.Component";
 
 const MoviePage = () => {
     const { id } = useParams();

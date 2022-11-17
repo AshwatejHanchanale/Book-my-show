@@ -1,5 +1,5 @@
-import React from 'react'
-import MovieNavbar from '../Components/Navbar/MovieNavbar.Component';
+import React from "react";
+import MovieNavbar from "../Components/Navbar/MovieNavbar.Component";
 
 const MovieLayoutHoc =
     (Component) =>
@@ -10,7 +10,6 @@ const MovieLayoutHoc =
                     <Component {...props} />
                     <div>Footer</div>
                 </div>
-            )
+            );
         };
-
-export default MovieLayoutHoc
+export default MovieLayoutHoc;
